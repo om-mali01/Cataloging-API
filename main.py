@@ -3,11 +3,9 @@ import json
 
 app = Flask(__name__)
 
-# Test Comment
-
 def load_info():
     with open('catalog.json', 'r') as file:
-        catalog = json.load(file)
+        catalog: list = json.load(file)
     return catalog
 
 def save_info(catalog):
