@@ -1,10 +1,5 @@
 [
     {
-        "Name": "adiya",
-        "age": 22,
-        "occupation": "Engg"
-    },
-    {
         "Name": "abc",
         "age": 36,
         "occupation": "Teacher"
@@ -18,5 +13,10 @@
         "name": "John Doe",
         "age": 30,
         "location": "New York"
+    },
+    {
+        "name": "Aditya",
+        "age": 21,
+        "location": "India"
     }
 ]
